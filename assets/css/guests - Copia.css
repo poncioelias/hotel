@@ -1,0 +1,107 @@
+thead {
+    color: #a5a5a5;
+}
+
+.has-search .form-control {
+    padding-left: 50px;
+    border-radius: 50px; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 4px;
+}
+
+.btn-view {
+    background-color: #F8F8FF;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 3px;
+}
+
+.btn-view i {
+    width: 4px;
+}
+
+label {
+    line-height: 3.4;
+}
+
+.menu .row {
+    justify-content: space-between;
+}
+
+.menu div {
+    display: flex;
+}
+
+tr {
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .users, a {
+    color: #a5a5a5;
+}
+
+a {
+    text-decoration: none; 
+}
+
+
+.modal-dialog { float: right; max-width: 100% }
+
+.close 
+{ 
+    margin-top: 0px !important; 
+    margin-left: 0px !important; 
+}
+
+.modal-header {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-bottom: none;
+}
+
+.categ-detail {
+    list-style: none;
+    position: relative;
+}
+
+.categ-detail li {
+    float: left;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.categ-detail li:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.categ-detail .active {
+    border-bottom: 1px solid red;
+    color: red;
+}
